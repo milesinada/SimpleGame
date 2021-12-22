@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Session 4</title>
+</head>
+<body>    
+        <header>
+            <h1>Navi</h1>
+        </header>
+
+        <main>
+            <div>
+                <img src="Navi.gif" alt="Navi Fairy">
+                <div >
+                    <table class="center status">
+                        <tr>
+                            <th>Hunger</th>
+                            <th>Happiness</th>
+                            <th>Energy</th>
+                        </tr>
+                        <tr>
+                            <td> 🍖<span id="hungerPoints">0</span></td>                        
+                            <td> 💖<span id="happinessPoints">0</span> </td>                        
+                            <td> 🔋<span id="energyPoints">0</span> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <button onclick = "feed();" >🍖</button>
+                <button onclick = "pet();" >👋</button>
+                <button onclick = "play();" >⚽</button>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+        <script src="app.js" ></script>
+    
+</body>
+</html>

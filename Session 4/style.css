@@ -1,0 +1,31 @@
+body{
+    background-color: #88bdbc;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table, th, td {
+    border:2px solid #4f4a41;
+    
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.status{
+    font-size: 1.3rem;
+    width: 70%;
+    border-collapse: collapse;
+    border: solid 2px #4f4a41;
+}
+button{
+    background-color: #254e58;
+    margin: 2rem;
+    padding: 2%;
+    font-size: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 5px #6e6658;
+}
+button:hover{
+    background-color: #112d32;
+    padding: 3%;
+}
